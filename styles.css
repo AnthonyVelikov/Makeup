@@ -3,7 +3,7 @@
   --chat-user-bg: #d0e7ff;
   --chat-bot-bg: #f0f0f0;
   --accent: #ff0000;
-  --font-main: Arial, sans-serif;
+  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --radius: 12px;
 }
 
@@ -37,7 +37,7 @@ body {
   background: white;
   border-radius: var(--radius);
   padding: 20px;
-  max-width: 500px;
+  max-width: 700px;
   width: 100%;
   margin-top: 20px;
   color: black;
@@ -47,7 +47,7 @@ body {
 }
 
 .chat {
-  height: 250px;
+  height: 400px;
   overflow-y: auto;
   border: 1px solid #ccc;
   padding: 10px;
